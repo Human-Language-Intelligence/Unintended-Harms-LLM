@@ -95,4 +95,14 @@ You can find scripts for evaluation in ```scripts/inference_evaluation.sh```
 To use gpt-4o evaluation, enter your OPENAI_API_KEY to OPENAI_API_KEY in ./utils/constants.py
 
 ## Citation
-To be available
+```
+@misc{choi2025unintendedharmsvaluealignedllms,
+      title={Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights}, 
+      author={Sooyung Choi and Jaehyeok Lee and Xiaoyuan Yi and Jing Yao and Xing Xie and JinYeong Bak},
+      year={2025},
+      eprint={2506.06404},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2506.06404}, 
+}
+```
