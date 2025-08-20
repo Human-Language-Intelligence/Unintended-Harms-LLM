@@ -1,6 +1,6 @@
 # Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights
 
-This repository contains the implementation for the paper "Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights" accepted to ACL 2025.
+This repository contains the implementation for the paper "[Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights](https://aclanthology.org/2025.acl-long.1532/)" accepted to ACL 2025.
 
 ## Overview
 
@@ -96,13 +96,27 @@ To use gpt-4o evaluation, enter your OPENAI_API_KEY to OPENAI_API_KEY in ./utils
 
 ## Citation
 ```
-@misc{choi2025unintendedharmsvaluealignedllms,
-      title={Unintended Harms of Value-Aligned LLMs: Psychological and Empirical Insights}, 
-      author={Sooyung Choi and Jaehyeok Lee and Xiaoyuan Yi and Jing Yao and Xing Xie and JinYeong Bak},
-      year={2025},
-      eprint={2506.06404},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2506.06404}, 
+@inproceedings{choi-etal-2025-unintended,
+    title = "Unintended Harms of Value-Aligned {LLM}s: Psychological and Empirical Insights",
+    author = "Choi, Sooyung  and
+      Lee, Jaehyeok  and
+      Yi, Xiaoyuan  and
+      Yao, Jing  and
+      Xie, Xing  and
+      Bak, JinYeong",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.1532/",
+    doi = "10.18653/v1/2025.acl-long.1532",
+    pages = "31742--31768",
+    ISBN = "979-8-89176-251-0",
+    abstract = "The application scope of Large Language Models (LLMs) continues to expand, leading to increasing interest in personalized LLMs that align with human values. However, aligning these models with individual values raises significant safety concerns, as certain values may correlate with harmful information. In this paper, we identify specific safety risks associated with value-aligned LLMs and investigate the psychological principles behind these challenges. Our findings reveal two key insights. (1) Value-aligned LLMs are more prone to harmful behavior compared to non-fine-tuned models and exhibit slightly higher risks in traditional safety evaluations than other fine-tuned models. (2) These safety issues arise because value-aligned LLMs genuinely generate text according to the aligned values, which can amplify harmful outcomes. Using a dataset with detailed safety categories, we find significant correlations between value alignment and safety risks, supported by psychological hypotheses. This study offers insights into the ``black box'' of value alignment and proposes in-context alignment methods to enhance the safety of value-aligned LLMs."
 }
 ```
